@@ -10,8 +10,9 @@ html, body{
     width: 100vw;
 }
 body{
-    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 main {
     position: relative;
@@ -25,5 +26,4 @@ section#telefone{
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-
 }
